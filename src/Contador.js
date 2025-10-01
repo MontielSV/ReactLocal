@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Contador() {
-  const [contador, setContador] = useState(0);  
+  const [contador, setContador] = useState("");  
 
   const incrementar = () => setContador(contador + 1);
   const disminuir = () => setContador(contador - 1);
