@@ -5,7 +5,7 @@ function Contador() {
 
   const incrementar = () => setContador(contador + 1);
   const disminuir = () => setContador(contador - 1);
-  const InputNumber = (num) => setContador(num);
+  const InputNumber = (num) => setContador(contador+num);
 
   return (
     <div id="contador">
